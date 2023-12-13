@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Artist Name</title>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <div class="logo">Your Artist Name</div>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#music">Music</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Hero Section -->
+<section id="home">
+    <!-- Add your hero content here -->
+</section>
+
+<!-- Music Section -->
+<section id="music">
+    <!-- Add your music player and links to music platforms here -->
+</section>
+
+<!-- Blog Section -->
+<section id="blog">
+    <!-- Add your blog content here -->
+</section>
+
+<!-- Gallery Section -->
+<section id="gallery">
+    <!-- Add your photo and video gallery here -->
+</section>
+
+<!-- Links Section -->
+<section id="links">
+    <!-- Add links to social media and music platforms here -->
+</section>
+
+<!-- Footer -->
+<footer>
+    <!-- Add your contact information and signup form here -->
+</footer>
+
+</body>
+</html>
+<!-- ... (previous HTML code) ... -->
+
+<!-- Music Section -->
+<section id="music">
+    <h2>Music</h2>
+    <div id="musicPlayer">
+        <audio id="audioPlayer" controls>
+            <source src="your-music.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+    <div id="musicLinks">
+        <a href="spotify-link" target="_blank">Listen on Spotify</a>
+        <!-- Add more links as needed -->
+    </div>
+</section>
+
+<!-- ... (remaining HTML code) ... -->
+
+<script src="script.js"></script>
+</body>
+</html>
